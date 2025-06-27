@@ -1,66 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Local Services | Hire Experts Near You</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
 
-  <!-- Header -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TapTask – Hire Trusted Local Services like Plumbers, Electricians, Carpenters, and more.">
+  <title>TapTask – Hire Trusted Local Services</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
   <header>
-    <h1>Local Services</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
-      <a href="login.html">Login</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">TapTask</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero">
-    <h2>Hire Trusted Professionals Near You</h2>
-    <p>Plumbers, Electricians, Carpenters, Massage Therapists, and more.</p>
+    <div class="container">
+      <h2>Hire Trusted Local Professionals Instantly</h2>
+      <p>Plumbers, Electricians, Cleaners, Tutors, and more — all at your fingertips.</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
   </section>
-
-  <!-- Services Section -->
-  <section class="services">
-    <h3>Popular Services</h3>
-    <div class="service-cards">
-
-      <a href="service-details.html?type=plumber" class="card">
-        <img src="images/pfp.webp" alt="Profile Picture">
-        <h4>Plumber</h4>
-        <p>Fix leaks, install pipes, and more.</p>
+  <section class="search-section">
+  <div class="container search-container">
+    <input type="text" id="serviceSearch" placeholder="🔍 Search for a service like 'Plumber', 'Salon', 'Cook'..." />
+  </div>
+</section>
+  <section id="services" class="category-grid">
+    <h2>Categories</h2>
+    <div class="grid">
+      <a href="house-help.html" class="category-card">
+        <img src="images/house-help.jpg" alt="House Help">
+        <h3>House Help</h3>
       </a>
-
-      <a href="service-details.html?type=electrician" class="card">
-        <img src="images/pfp.webp" alt="Profile Picture">
-        <h4>Electrician</h4>
-        <p>Switches, wiring, lighting — all handled.</p>
+      <a href="home-services.html" class="category-card">
+        <img src="images/home-services.png" alt="Home Services">
+        <h3>Home Services</h3>
       </a>
-
-      <a href="service-details.html?type=carpenter" class="card">
-        <img src="images/pfp.webp" alt="Profile Picture">
-        <h4>Carpenter</h4>
-        <p>Furniture fixes, fittings, and woodwork.</p>
+      <a href="professional-technical.html" class="category-card">
+        <img src="images/professional.jpg" alt="Professional & Technical">
+        <h3>Professional & Technical</h3>
       </a>
-
-      <a href="service-details.html?type=massage" class="card">
-        <img src="images/pfp.webp" alt="Profile Picture">
-        <h4>Massage Therapy</h4>
-        <p>Relax and refresh with home massage services.</p>
+      <a href="personal-wellness.html" class="category-card">
+        <img src="images/personal.jpg" alt="Personal Wellness">
+        <h3>Personal Wellness</h3>
       </a>
-
+      <a href="education-support.html" class="category-card">
+        <img src="images/education.jpg" alt="Education & Support">
+        <h3>Education & Support</h3>
+      </a>
+      <a href="vehicle-services.html" class="category-card">
+        <img src="images/vehicle.jpg" alt="Vehicle Services">
+        <h3>Vehicle Services</h3>
+      </a>
     </div>
   </section>
 
-  <!-- Footer -->
+  <section id="how-it-works" class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h4>🔍 Browse</h4>
+        <p>Choose a category and explore trusted professionals.</p>
+      </div>
+      <div class="step">
+        <h4>📝 Book</h4>
+        <p>Fill a simple form to request a service.</p>
+      </div>
+      <div class="step">
+        <h4>✅ Done</h4>
+        <p>Get the job completed hassle-free and safely.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91-9876543210</p>
+    <p>📧 support@taptask.in</p>
+    <p>💬 <a href="https://wa.me/919876543210" target="_blank">Chat on WhatsApp</a></p>
+  </section>
+
   <footer>
-    <p>© 2025 Local Services. All rights reserved.</p>
+    <p>&copy; 2025 TapTask. All rights reserved.</p>
   </footer>
 
+  <script src="js/script.js"></script>
 </body>
+
 </html>
